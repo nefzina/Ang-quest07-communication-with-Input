@@ -14,9 +14,9 @@ export class DeveloperComponent {
 
 
   constructor() {
-    const skill1 = new Skill("Angular", "angular-logo", "https://angular.io/");
-    const skill2 = new Skill("React", "react-logo", "https://react.dev/");
-    const skill3 = new Skill("MySQL", "mysql-logo", "https://www.mysql.com/");
+    const skill1 = new Skill("Angular", "../../assets/Angular_full_color_logo.svg.png", "https://angular.io/");
+    const skill2 = new Skill("React", "../../assets/React-icon.svg.png", "https://react.dev/");
+    const skill3 = new Skill("MySQL", "../../assets/mysql.png", "https://www.mysql.com/");
 
 
     this.developer = new Developer("Doe", "John", 28, "male", "biography 1", [skill1, skill2, skill3])
